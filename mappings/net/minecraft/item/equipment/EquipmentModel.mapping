@@ -1,0 +1,23 @@
+CLASS net/minecraft/unmapped/C_mgbzsqdv net/minecraft/item/equipment/EquipmentModel
+	FIELD f_lbwxvdfm CODEC Lcom/mojang/serialization/Codec;
+	FIELD f_oycysyiq LAYER_LIST_CODEC Lcom/mojang/serialization/Codec;
+	METHOD m_jyfxgynh getLayers (Lnet/minecraft/unmapped/C_mgbzsqdv$C_otwvbrdf;)Ljava/util/List;
+	METHOD m_stlhhglk builder ()Lnet/minecraft/unmapped/C_mgbzsqdv$C_lidehtcr;
+	CLASS C_jyzwvubc Layer
+		METHOD m_czayfcey create (Lnet/minecraft/unmapped/C_ncpywfca;Z)Lnet/minecraft/unmapped/C_mgbzsqdv$C_jyzwvubc;
+			ARG 1 dyeable
+		METHOD m_txlehlnz getTextureLocation (Lnet/minecraft/unmapped/C_mgbzsqdv$C_otwvbrdf;)Lnet/minecraft/unmapped/C_ncpywfca;
+			ARG 1 type
+		METHOD m_wstkrcxk createLeather (Lnet/minecraft/unmapped/C_ncpywfca;Z)Lnet/minecraft/unmapped/C_mgbzsqdv$C_jyzwvubc;
+			ARG 1 dyeable
+	CLASS C_lidehtcr Builder
+		FIELD f_zryleihw layers Ljava/util/Map;
+		METHOD m_etkqomyx addHumanoidLayers (Lnet/minecraft/unmapped/C_ncpywfca;)Lnet/minecraft/unmapped/C_mgbzsqdv$C_lidehtcr;
+		METHOD m_kleeaogh build ()Lnet/minecraft/unmapped/C_mgbzsqdv;
+		METHOD m_szqwgbrg addHumanoidLayers (Lnet/minecraft/unmapped/C_ncpywfca;Z)Lnet/minecraft/unmapped/C_mgbzsqdv$C_lidehtcr;
+			ARG 2 dyeable
+		METHOD m_xmfwjeqr addMainHumanoidLayer (Lnet/minecraft/unmapped/C_ncpywfca;Z)Lnet/minecraft/unmapped/C_mgbzsqdv$C_lidehtcr;
+		METHOD m_yyvtxpwa addLayers (Lnet/minecraft/unmapped/C_mgbzsqdv$C_otwvbrdf;[Lnet/minecraft/unmapped/C_mgbzsqdv$C_jyzwvubc;)Lnet/minecraft/unmapped/C_mgbzsqdv$C_lidehtcr;
+	CLASS C_maevzcff Dyeable
+	CLASS C_otwvbrdf LayerType
+		FIELD f_hoqfleaj id Ljava/lang/String;

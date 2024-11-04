@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_gvxmissl net/minecraft/item/equipment/EquipmentModels
+	FIELD f_brlprmll ARMADILLO_SCUTE Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_bxvjucae IRON Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_ftmlzyon DIAMOND Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_ghsxyfgh NETHERITE Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_juzunkjt LEATHER Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_jygutpnk CARPETS_BY_COLOR Ljava/util/Map;
+	FIELD f_nbqpvcek CHAINMAIL Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_ogemasfh TRADER_LLAMA Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_rboepblq ELYTRA Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_wemvazeh TURTLE_SCUTE Lnet/minecraft/unmapped/C_ncpywfca;
+	FIELD f_yflwgfvn GOLD Lnet/minecraft/unmapped/C_ncpywfca;
+	METHOD m_cburozhh withHumanoidLayers (Ljava/lang/String;)Lnet/minecraft/unmapped/C_mgbzsqdv;
+	METHOD m_gpvytjtb bootstrap (Ljava/util/function/BiConsumer;)V
+		ARG 0 equipmentModelConsumer
+	METHOD m_yjbykbok withHumanoidAndHorseLayers (Ljava/lang/String;)Lnet/minecraft/unmapped/C_mgbzsqdv;

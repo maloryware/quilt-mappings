@@ -1,1 +1,4 @@
 CLASS net/minecraft/unmapped/C_vsteyhwp net/minecraft/data/EquipmentModelDefinitionsProvider
+	FIELD f_yjnzvdng resolver Lnet/minecraft/unmapped/C_ugkmwocs$C_ehniswvc;
+	METHOD <init> (Lnet/minecraft/unmapped/C_ugkmwocs;)V
+		ARG 1 output

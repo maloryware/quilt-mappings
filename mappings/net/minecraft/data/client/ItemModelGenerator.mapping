@@ -23,7 +23,12 @@ CLASS net/minecraft/unmapped/C_cfvrpkog net/minecraft/data/client/ItemModelGener
 	METHOD m_llpeiyoc createArmorJson (Lnet/minecraft/unmapped/C_ncpywfca;Ljava/util/Map;Lnet/minecraft/unmapped/C_ncpywfca;)Lcom/google/gson/JsonObject;
 		ARG 1 id
 		ARG 2 textures
+		ARG 3 materialOverrideId
 	METHOD m_mppeudhx registerArmor (Lnet/minecraft/unmapped/C_vorddnax;Lnet/minecraft/unmapped/C_ncpywfca;Lnet/minecraft/unmapped/C_mgbzsqdv;Lnet/minecraft/unmapped/C_yuycoehb;)V
+		ARG 1 item
+		ARG 2 materialOverrideId
+		ARG 3 model
+		ARG 4 slot
 	METHOD m_pmffjxfg registerClock (Lnet/minecraft/unmapped/C_vorddnax;)V
 		ARG 1 clock
 	METHOD m_uirjkeyq uploadLayeredItem (Lnet/minecraft/unmapped/C_ncpywfca;Lnet/minecraft/unmapped/C_ncpywfca;Lnet/minecraft/unmapped/C_ncpywfca;)V
@@ -39,3 +44,6 @@ CLASS net/minecraft/unmapped/C_cfvrpkog net/minecraft/data/client/ItemModelGener
 		ARG 3 model
 	METHOD m_zkttuqam register ()V
 	CLASS C_cutcputf TrimModelData
+		FIELD f_ylvazehh armorMaterialOverrides Ljava/util/Map;
+		METHOD m_ovkesrzp armorMaterialOverrides ()Ljava/util/Map;
+		METHOD m_qfpygivh getArmorMaterialOverride (Lnet/minecraft/unmapped/C_ncpywfca;)Ljava/lang/String;
