@@ -431,31 +431,9 @@ CLASS net/minecraft/unmapped/C_lscptbhn net/minecraft/client/option/GameOptions
 		ARG 0 sliderValue
 	CLASS C_cupifpge Visitor
 		METHOD m_lctuaxnl visitOption (Ljava/lang/String;Lnet/minecraft/unmapped/C_vbibxkxv;)V
-			ARG 1 key
-			ARG 2 option
-	CLASS C_jalnwwrt
-		METHOD m_jkglpaia find (Ljava/lang/String;)Ljava/lang/String;
-			ARG 1 key
-	CLASS C_runhizzk
-		METHOD m_ukcqoglz print (Ljava/lang/String;)V
-			ARG 1 key
-		METHOD m_xtvqgkuv (Ljava/lang/String;Ljava/io/PrintWriter;Lcom/google/gson/JsonElement;)V
-			ARG 3 result
 	CLASS C_wgzdldrb TypeVisitor
 		METHOD m_dzdzxyaq visitBoolean (Ljava/lang/String;Z)Z
-			ARG 1 key
-			ARG 2 current
 		METHOD m_itiuscyr visitString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-			ARG 1 key
-			ARG 2 current
 		METHOD m_nzfiomzf visitInt (Ljava/lang/String;I)I
-			ARG 1 key
-			ARG 2 current
 		METHOD m_sboqkmez visitObject (Ljava/lang/String;Ljava/lang/Object;Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/lang/Object;
-			ARG 1 key
-			ARG 2 current
-			ARG 3 decoder
-			ARG 4 encoder
 		METHOD m_svchcgao visitFloat (Ljava/lang/String;F)F
-			ARG 1 key
-			ARG 2 current
