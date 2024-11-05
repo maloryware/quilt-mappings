@@ -13,11 +13,28 @@ CLASS net/minecraft/unmapped/C_kgfalbim net/minecraft/world/gen/chunk/ChunkGener
 	METHOD <init> (Lnet/minecraft/unmapped/C_ajguowya;Ljava/util/function/Function;)V
 		ARG 2 generationSettingsGetter
 	METHOD m_ajumqnmd getBiomeSource ()Lnet/minecraft/unmapped/C_ajguowya;
+	METHOD m_bbjdszxg setStructureStarts (Lnet/minecraft/unmapped/C_wqxmvzdq;Lnet/minecraft/unmapped/C_jibygqpu;Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_lwzmmmqr;Lnet/minecraft/unmapped/C_zxhjfyir;Lnet/minecraft/unmapped/C_xhhleach;)V
+		COMMENT Determines which structures should start in the given chunk and creates their starting points.
+		ARG 1 registryManager
+		ARG 2 concentricCalculator
+		ARG 3 structureManager
+		ARG 4 chunk
+		ARG 5 templateManager
 	METHOD m_blqkvkse getCodec ()Lcom/mojang/serialization/MapCodec;
 	METHOD m_caesvqvr createConcentricRingPlacementCalculator (Lnet/minecraft/unmapped/C_vtbxyypo;Lnet/minecraft/unmapped/C_edfiqifk;J)Lnet/minecraft/unmapped/C_jibygqpu;
 		ARG 1 structureSetLookup
 		ARG 2 randomState
 		ARG 3 seed
+	METHOD m_dbfhxbvh tryGenerateStructure (Lnet/minecraft/unmapped/C_nmlisvai$C_gmatxzeb;Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_wqxmvzdq;Lnet/minecraft/unmapped/C_edfiqifk;Lnet/minecraft/unmapped/C_zxhjfyir;JLnet/minecraft/unmapped/C_lwzmmmqr;Lnet/minecraft/unmapped/C_ynrszrtu;Lnet/minecraft/unmapped/C_zubvmeye;Lnet/minecraft/unmapped/C_xhhleach;)Z
+		ARG 1 structureSelectionEntry
+		ARG 2 structureManager
+		ARG 3 registryManager
+		ARG 4 randomState
+		ARG 5 structureTemplateManager
+		ARG 6 seed
+		ARG 8 chunk
+		ARG 9 pos
+		ARG 10 sectionPos
 	METHOD m_dmhpibgx getColumnSample (IILnet/minecraft/unmapped/C_qpninoyb;Lnet/minecraft/unmapped/C_edfiqifk;)Lnet/minecraft/unmapped/C_lydpvmkv;
 		COMMENT Returns a sample of all the block states in a column for use in structure generation.
 	METHOD m_dsmekobm getSettings (Lnet/minecraft/unmapped/C_cjzoxshv;)Lnet/minecraft/unmapped/C_qbjpvmph;
@@ -54,6 +71,8 @@ CLASS net/minecraft/unmapped/C_kgfalbim net/minecraft/world/gen/chunk/ChunkGener
 	METHOD m_gzmnagwo (Lnet/minecraft/unmapped/C_cjzoxshv;)Lnet/minecraft/unmapped/C_qbjpvmph;
 		ARG 0 biome
 	METHOD m_hfetlfug addDebugLines (Ljava/util/List;Lnet/minecraft/unmapped/C_edfiqifk;Lnet/minecraft/unmapped/C_hynzadkk;)V
+	METHOD m_hwpfjgka (Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_zubvmeye;Lnet/minecraft/unmapped/C_lwzmmmqr;Lnet/minecraft/unmapped/C_jibygqpu;Lnet/minecraft/unmapped/C_ynrszrtu;Lnet/minecraft/unmapped/C_wqxmvzdq;Lnet/minecraft/unmapped/C_edfiqifk;Lnet/minecraft/unmapped/C_zxhjfyir;Lnet/minecraft/unmapped/C_xhhleach;Lnet/minecraft/unmapped/C_cjzoxshv;)V
+		ARG 10 structureSet
 	METHOD m_iinbgeei (Lnet/minecraft/unmapped/C_dzcnonip;)Ljava/util/Set;
 		ARG 0 placement
 	METHOD m_inhqqvlj (Lit/unimi/dsi/fastutil/ints/IntSet;Lnet/minecraft/unmapped/C_ukunbkuo$C_onfbwplh;Lnet/minecraft/unmapped/C_jewbaoib;)V

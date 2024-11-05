@@ -19,6 +19,12 @@ CLASS net/minecraft/unmapped/C_iyksaosz net/minecraft/client/render/WeatherRende
 		ARG 6 rain
 		ARG 7 snow
 	METHOD m_isullewe getPrecipitation (Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_hynzadkk;)Lnet/minecraft/unmapped/C_orlkpefs$C_xwlyzxea;
+	METHOD m_mswqeqij renderColumns (Lnet/minecraft/unmapped/C_igthdzux;Ljava/util/List;Lnet/minecraft/unmapped/C_vgpupfxx;FIF)V
+		ARG 2 columns
+		ARG 3 camera
+		ARG 4 alpha
+		ARG 5 ticks
+		ARG 6 gradient
 	METHOD m_nofbnpci tickParticles (Lnet/minecraft/unmapped/C_ghdnlrrw;Lnet/minecraft/unmapped/C_dcmtgrvm;ILnet/minecraft/unmapped/C_ohzhuhsr;)V
 		ARG 3 ticks
 		ARG 4 mode

@@ -8,12 +8,6 @@ CLASS net/minecraft/unmapped/C_gjaljbcn net/minecraft/client/render/entity/model
 	COMMENT   <th>Part Name</th><th>Parent</th><th>Corresponding Field</th>
 	COMMENT </tr>
 	COMMENT <tr>
-	COMMENT   <td>{@value EntityModelPartNames#LEFT_HIND_FOOT}</td><td>Root part</td><td>{@link #leftHindLeg}</td>
-	COMMENT </tr>
-	COMMENT <tr>
-	COMMENT   <td>{@value EntityModelPartNames#RIGHT_HIND_FOOT}</td><td>Root part</td><td>{@link #rightHindLeg}</td>
-	COMMENT </tr>
-	COMMENT <tr>
 	COMMENT   <td>{@value #LEFT_HAUNCH}</td><td>Root part</td><td>{@link #leftHaunch}</td>
 	COMMENT </tr>
 	COMMENT <tr>
@@ -32,16 +26,7 @@ CLASS net/minecraft/unmapped/C_gjaljbcn net/minecraft/client/render/entity/model
 	COMMENT   <td>{@value EntityModelPartNames#HEAD}</td><td>Root part</td><td>{@link #head}</td>
 	COMMENT </tr>
 	COMMENT <tr>
-	COMMENT   <td>{@value EntityModelPartNames#RIGHT_EAR}</td><td>Root part</td><td>{@link #rightEar}</td>
-	COMMENT </tr>
-	COMMENT <tr>
-	COMMENT   <td>{@value EntityModelPartNames#LEFT_EAR}</td><td>Root part</td><td>{@link #leftEar}</td>
-	COMMENT </tr>
-	COMMENT <tr>
 	COMMENT   <td>{@value EntityModelPartNames#TAIL}</td><td>Root part</td><td></td>
-	COMMENT </tr>
-	COMMENT <tr>
-	COMMENT   <td>{@value EntityModelPartNames#NOSE}</td><td>Root part</td><td>{@link #nose}</td>
 	COMMENT </tr>
 	COMMENT </table>
 	COMMENT </div>

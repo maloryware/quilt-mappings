@@ -2,6 +2,7 @@ CLASS net/minecraft/unmapped/C_spewlwzn net/minecraft/world/gen/feature/GlowLich
 	FIELD f_dxxrcixx spreadChance F
 	FIELD f_lkrqcqou canBePlacedOn Lnet/minecraft/unmapped/C_odfnijdo;
 	FIELD f_lnyfdzjd directions Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+	FIELD f_lywnacbr block Lnet/minecraft/unmapped/C_kxpovstt;
 	FIELD f_oxycfvlr canPlaceOnCeiling Z
 	FIELD f_shhkjcaf CODEC Lcom/mojang/serialization/Codec;
 	FIELD f_ujexduri searchRange I
@@ -19,6 +20,8 @@ CLASS net/minecraft/unmapped/C_spewlwzn net/minecraft/world/gen/feature/GlowLich
 	METHOD m_esqrpzgi (Lnet/minecraft/unmapped/C_spewlwzn;)Lnet/minecraft/unmapped/C_odfnijdo;
 		ARG 0 config
 	METHOD m_ibmusjzt (Lnet/minecraft/unmapped/C_spewlwzn;)Ljava/lang/Boolean;
+		ARG 0 config
+	METHOD m_mqnwfrnr (Lnet/minecraft/unmapped/C_spewlwzn;)Lnet/minecraft/unmapped/C_kxpovstt;
 		ARG 0 config
 	METHOD m_nkfiizrn getShuffledDirections (Lnet/minecraft/unmapped/C_rlomrsco;)Ljava/util/List;
 		ARG 1 random

@@ -21,6 +21,17 @@ CLASS net/minecraft/unmapped/C_cpwnhism net/minecraft/text/Style
 	FIELD f_wxbzpcki obfuscated Ljava/lang/Boolean;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
+	METHOD m_ajyzlxsn create (Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/unmapped/C_cpwnhism;
+		ARG 0 color
+		ARG 1 bold
+		ARG 2 italic
+		ARG 3 underlined
+		ARG 4 strikethrough
+		ARG 5 obfuscated
+		ARG 6 clickEvent
+		ARG 7 hoverEvent
+		ARG 8 insertion
+		ARG 9 font
 	METHOD m_akzhywag checkEmptyAfterChange (Lnet/minecraft/unmapped/C_cpwnhism;Ljava/lang/Object;Ljava/lang/Object;)Lnet/minecraft/unmapped/C_cpwnhism;
 		COMMENT Checks whether a new style, with a changed attribute is empty, in which case is
 		COMMENT replaced by the {@link #EMPTY empty style instance}.

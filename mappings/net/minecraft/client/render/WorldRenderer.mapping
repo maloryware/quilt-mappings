@@ -77,6 +77,10 @@ CLASS net/minecraft/unmapped/C_sfkkabhx net/minecraft/client/render/WorldRendere
 	METHOD m_dwuopuwx updateNoCullingBlockEntities (Ljava/util/Collection;Ljava/util/Collection;)V
 		ARG 1 removed
 		ARG 2 added
+	METHOD m_dxaxfxmt addParticlesPass (Lnet/minecraft/unmapped/C_obrvgeej;Lnet/minecraft/unmapped/C_dcmtgrvm;FLnet/minecraft/unmapped/C_vidgpspy;)V
+		ARG 1 frameGraph
+		ARG 3 tickDelta
+		ARG 4 fog
 	METHOD m_eesirxud setupTerrain (Lnet/minecraft/unmapped/C_dcmtgrvm;Lnet/minecraft/unmapped/C_jwzjqevg;ZZ)V
 		ARG 1 camera
 		ARG 2 frustum
@@ -91,6 +95,11 @@ CLASS net/minecraft/unmapped/C_sfkkabhx net/minecraft/client/render/WorldRendere
 		ARG 9 velocityX
 		ARG 11 velocityY
 		ARG 13 velocityZ
+	METHOD m_errmldkc addWeatherAndWorldBorderRenderPass (Lnet/minecraft/unmapped/C_obrvgeej;Lnet/minecraft/unmapped/C_vgpupfxx;FLnet/minecraft/unmapped/C_vidgpspy;)V
+		ARG 1 frameGraph
+		ARG 2 camera
+		ARG 3 tickDelta
+		ARG 4 fog
 	METHOD m_erxhtaop getSections ()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
 	METHOD m_evewmmqp renderBlockEntities (Lnet/minecraft/unmapped/C_cnszsxvd;Lnet/minecraft/unmapped/C_igrgeffe$C_insrqxjm;Lnet/minecraft/unmapped/C_igrgeffe$C_insrqxjm;Lnet/minecraft/unmapped/C_dcmtgrvm;F)V
 		ARG 2 entityVertices
@@ -167,6 +176,13 @@ CLASS net/minecraft/unmapped/C_sfkkabhx net/minecraft/client/render/WorldRendere
 		ARG 4 newState
 		ARG 5 flags
 	METHOD m_nimwchzu drawEntityOutlinesFramebuffer ()V
+	METHOD m_nsrbbxvx render (Lnet/minecraft/unmapped/C_lioynfcp;Lnet/minecraft/unmapped/C_lrgsdfwv;ZLnet/minecraft/unmapped/C_dcmtgrvm;Lnet/minecraft/unmapped/C_sktkdoun;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;)V
+		ARG 1 resourceAllocator
+		ARG 3 renderBlockOutline
+		ARG 4 camera
+		ARG 5 gameRenderer
+		ARG 6 modelViewMatrix
+		ARG 7 projectionMatrix
 	METHOD m_ntxphbrg getLightmapCoordinates (Lnet/minecraft/unmapped/C_xjeuupup;Lnet/minecraft/unmapped/C_txtbiemp;Lnet/minecraft/unmapped/C_hynzadkk;)I
 		ARG 0 world
 		ARG 1 state

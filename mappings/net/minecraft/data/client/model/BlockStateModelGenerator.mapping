@@ -199,6 +199,9 @@ CLASS net/minecraft/unmapped/C_ysvjbfkt net/minecraft/data/client/model/BlockSta
 		ARG 6 deadCoralFan
 		ARG 7 coralWallFan
 		ARG 8 deadCoralWallFan
+	METHOD m_jpvrhsrw registerFlowerPotPlant (Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_ysvjbfkt$C_budgdjde;)V
+		ARG 1 plantBlock
+		ARG 2 flowerPotBlock
 	METHOD m_jspccrtm registerCaveVines ()V
 	METHOD m_juiovgan registerFrogspawn ()V
 	METHOD m_jziawvut (Lnet/minecraft/unmapped/C_pgmmajlq;)V
@@ -351,6 +354,9 @@ CLASS net/minecraft/unmapped/C_ysvjbfkt net/minecraft/data/client/model/BlockSta
 		ARG 1 modelFactory
 		ARG 2 blocks
 	METHOD m_rflvpbhv registerIronBars ()V
+	METHOD m_rmpfaudk registerPlantPart (Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_ysvjbfkt$C_budgdjde;)V
+		ARG 1 plant
+		ARG 2 plantStem
 	METHOD m_rocqhogb registerCarpet (Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_mmxmpdoq;)V
 		ARG 1 wool
 		ARG 2 carpet
@@ -455,6 +461,8 @@ CLASS net/minecraft/unmapped/C_ysvjbfkt net/minecraft/data/client/model/BlockSta
 	METHOD m_zagedreb registerFire ()V
 	METHOD m_zcugyzpv registerTurnableRail (Lnet/minecraft/unmapped/C_mmxmpdoq;)V
 		ARG 1 rail
+	METHOD m_zdjalgok registerDoubleBlock (Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_ysvjbfkt$C_budgdjde;)V
+		ARG 1 doubleBlock
 	METHOD m_zebqtail registerLilyPad ()V
 	METHOD m_zestimlc registerChorusFlower ()V
 	METHOD m_zffcuixd registerHangingSign (Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_mmxmpdoq;Lnet/minecraft/unmapped/C_mmxmpdoq;)V
