@@ -15,6 +15,12 @@ CLASS net/minecraft/unmapped/C_xjqetogb net/minecraft/client/render/item/ItemRen
 		ARG 3 light
 		ARG 4 overlay
 		ARG 8 seed
+	METHOD m_crhzuksp renderBakedItemQuads (Lnet/minecraft/unmapped/C_cnszsxvd;Lnet/minecraft/unmapped/C_igthdzux;Ljava/util/List;[III)V
+		ARG 0 matrices
+		ARG 1 vertices
+		ARG 2 quads
+		ARG 4 light
+		ARG 5 overlay
 	METHOD m_eqolelzj getItemGlintConsumer (Lnet/minecraft/unmapped/C_igrgeffe;Lnet/minecraft/unmapped/C_tizlwnnv;ZZ)Lnet/minecraft/unmapped/C_igthdzux;
 		ARG 0 vertexConsumers
 		ARG 1 layer
@@ -27,6 +33,12 @@ CLASS net/minecraft/unmapped/C_xjqetogb net/minecraft/client/render/item/ItemRen
 		ARG 8 light
 		ARG 9 overlay
 		ARG 10 seed
+	METHOD m_qpesfboj renderBakedItemModel (Lnet/minecraft/unmapped/C_nnhmhkbv;[IIILnet/minecraft/unmapped/C_cnszsxvd;Lnet/minecraft/unmapped/C_igthdzux;)V
+		ARG 0 model
+		ARG 2 light
+		ARG 3 overlay
+		ARG 4 matrices
+		ARG 5 vertices
 	METHOD m_xjgjlodl getCompassGlintConsumer (Lnet/minecraft/unmapped/C_igrgeffe;Lnet/minecraft/unmapped/C_tizlwnnv;Lnet/minecraft/unmapped/C_cnszsxvd$C_pqokfevb;)Lnet/minecraft/unmapped/C_igthdzux;
 		ARG 0 provider
 		ARG 1 layer

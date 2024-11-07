@@ -54,6 +54,7 @@ CLASS net/minecraft/unmapped/C_jskhqate net/minecraft/client/gui/screen/world/Sw
 		METHOD m_pxhvruta info (IZ)Lnet/minecraft/unmapped/C_jskhqate$C_gwrkidid;
 			ARG 1 maxInfoRows
 			ARG 2 alwaysMaxHeight
+		METHOD m_rquysgzl build ()Lnet/minecraft/unmapped/C_jskhqate;
 		METHOD m_ruakzfhh leftPadding (I)Lnet/minecraft/unmapped/C_jskhqate$C_gwrkidid;
 			ARG 1 padding
 	CLASS C_tjqhdwkv BottomInfo

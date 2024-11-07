@@ -6,6 +6,7 @@ CLASS net/minecraft/unmapped/C_xsihzhnp net/minecraft/data/client/model/Multipar
 	METHOD m_kiluksvn create (Lnet/minecraft/unmapped/C_mmxmpdoq;)Lnet/minecraft/unmapped/C_xsihzhnp;
 		ARG 0 block
 	CLASS C_ctpodgma ConditionalMultipart
+		FIELD f_qnpekpko when Lnet/minecraft/unmapped/C_yknyhorv;
 	CLASS C_rnxbexvk Multipart
 		FIELD f_qwpsiiai variants Ljava/util/List;
 		METHOD <init> (Ljava/util/List;)V

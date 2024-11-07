@@ -19,3 +19,5 @@ CLASS net/minecraft/unmapped/C_zppcsbsk net/minecraft/data/client/model/Model
 	METHOD m_izvaynaq getDefaultModelId (Lnet/minecraft/unmapped/C_mmxmpdoq;)Lnet/minecraft/unmapped/C_ncpywfca;
 	METHOD m_qvwwtehp createTextureMap (Lnet/minecraft/unmapped/C_pgmmajlq;)Ljava/util/Map;
 		ARG 1 texture
+	METHOD m_rhrakaxu (Lcom/google/gson/JsonObject;Lnet/minecraft/unmapped/C_ncpywfca;)V
+		ARG 1 parent

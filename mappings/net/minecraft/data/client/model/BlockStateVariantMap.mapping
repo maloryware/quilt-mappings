@@ -6,6 +6,8 @@ CLASS net/minecraft/unmapped/C_ujotlecn net/minecraft/data/client/model/BlockSta
 	METHOD m_hkeainox create (Lnet/minecraft/unmapped/C_vzlztuyw;)Lnet/minecraft/unmapped/C_ujotlecn$C_krntilxf;
 		ARG 0 property
 	METHOD m_iqqrwxrs getProperties ()Ljava/util/List;
+	METHOD m_mrxfcapc register (Lnet/minecraft/unmapped/C_dslhtbww;Ljava/util/List;)V
+		ARG 2 possibleVariants
 	METHOD m_wwoayjvh getVariants ()Ljava/util/Map;
 	CLASS C_bhlotrgr TriFunction
 	CLASS C_dtuebmvp QuintFunction
