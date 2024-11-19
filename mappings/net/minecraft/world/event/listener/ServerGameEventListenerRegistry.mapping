@@ -10,5 +10,3 @@ CLASS net/minecraft/unmapped/C_drmyhwfj net/minecraft/world/event/listener/Serve
 		ARG 1 pos
 		ARG 2 listener
 	CLASS C_oxuissui OnEmpty
-		METHOD apply (I)V
-			ARG 1 sectionY

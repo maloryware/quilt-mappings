@@ -55,11 +55,6 @@ CLASS net/minecraft/unmapped/C_jrivgvxn net/minecraft/world/chunk/UpgradeData
 		ARG 1 tick
 	CLASS C_ecvoyrmp Logic
 		METHOD m_lgbggwsd getUpdatedState (Lnet/minecraft/unmapped/C_txtbiemp;Lnet/minecraft/unmapped/C_xpuuihxf;Lnet/minecraft/unmapped/C_txtbiemp;Lnet/minecraft/unmapped/C_vdvbsyle;Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_hynzadkk;)Lnet/minecraft/unmapped/C_txtbiemp;
-			ARG 1 oldState
-			ARG 3 neighborState
-			ARG 4 world
-			ARG 5 pos
-			ARG 6 neighborPos
 		METHOD m_ppzgkpxh postUpdate (Lnet/minecraft/unmapped/C_vdvbsyle;)V
 			ARG 1 world
 	CLASS C_zmvhiflf BuiltinLogic
