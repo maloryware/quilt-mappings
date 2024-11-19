@@ -4,3 +4,4 @@ CLASS net/minecraft/unmapped/C_iabfqjlu net/minecraft/resource/pack/metadata/Bui
 	METHOD <init> (Ljava/util/Map;)V
 		ARG 1 values
 	METHOD m_kzbhvppc of ()Lnet/minecraft/unmapped/C_iabfqjlu;
+	METHOD m_slyvwlhr get (Lnet/minecraft/unmapped/C_qevrzqez;)Ljava/lang/Object;
