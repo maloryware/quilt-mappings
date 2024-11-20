@@ -366,8 +366,6 @@ CLASS net/minecraft/unmapped/C_astfners net/minecraft/entity/Entity
 		ARG 1 state
 		ARG 2 multiplier
 	METHOD m_fuenwjjy damage (Lnet/minecraft/unmapped/C_bdwnwhiu;Lnet/minecraft/unmapped/C_sbxfkpyv;F)Z
-		ARG 2 source
-		ARG 3 amount
 	METHOD m_fymcirnf setCustomName (Lnet/minecraft/unmapped/C_rdaqiwdt;)V
 		ARG 1 name
 	METHOD m_fzshfvfl isSprinting ()Z
@@ -560,7 +558,6 @@ CLASS net/minecraft/unmapped/C_astfners net/minecraft/entity/Entity
 		ARG 1 axis
 		ARG 2 offsetFactor
 	METHOD m_lwugwlsw initDataTracker (Lnet/minecraft/unmapped/C_pyoaoolj$C_oqzxcugu;)V
-		ARG 1 builder
 	METHOD m_lxlqiklm cancelLerp ()V
 	METHOD m_lygmgdif getHoldingItemAngle (Lnet/minecraft/unmapped/C_vorddnax;)Lnet/minecraft/unmapped/C_vgpupfxx;
 		ARG 1 item
@@ -617,7 +614,6 @@ CLASS net/minecraft/unmapped/C_astfners net/minecraft/entity/Entity
 	METHOD m_oagnumwt getLerpTargetZ ()D
 	METHOD m_oavmpfqe getAir ()I
 	METHOD m_obkzfysl readCustomDataFromNbt (Lnet/minecraft/unmapped/C_hhlwcnih;)V
-		ARG 1 nbt
 	METHOD m_obyhheyh handleDamagingEvent (Lnet/minecraft/unmapped/C_sbxfkpyv;)V
 		ARG 1 source
 	METHOD m_odnkfosg getEyePos ()Lnet/minecraft/unmapped/C_vgpupfxx;
@@ -707,7 +703,6 @@ CLASS net/minecraft/unmapped/C_astfners net/minecraft/entity/Entity
 	METHOD m_qbuogctw getPose ()Lnet/minecraft/unmapped/C_ufdjspmk;
 	METHOD m_qchceppc tickRiding ()V
 	METHOD m_qehyjnid tickPortalTeleportation ()V
-	METHOD m_qesgssdn entityDataRequiresOperator ()Z
 	METHOD m_qiicvjap isAlive ()Z
 	METHOD m_qjamcbax tryTeleportAndDismount (DDD)V
 		ARG 1 destX
@@ -964,7 +959,6 @@ CLASS net/minecraft/unmapped/C_astfners net/minecraft/entity/Entity
 	METHOD m_xujkzfqh offsetZ (D)D
 		ARG 1 widthScale
 	METHOD m_xuwbpohg writeCustomDataToNbt (Lnet/minecraft/unmapped/C_hhlwcnih;)V
-		ARG 1 nbt
 	METHOD m_xvflsbzg scheduleVelocityUpdate ()V
 	METHOD m_xwbgqvgs readNbt (Lnet/minecraft/unmapped/C_hhlwcnih;)V
 		ARG 1 nbt
@@ -1042,10 +1036,6 @@ CLASS net/minecraft/unmapped/C_astfners net/minecraft/entity/Entity
 		ARG 2 target
 	CLASS C_aipuagbw Movement
 	CLASS C_aobkcgmf PositionUpdater
-		METHOD accept (Lnet/minecraft/unmapped/C_astfners;DDD)V
-			ARG 2 deltaX
-			ARG 4 deltaY
-			ARG 6 deltaZ
 	CLASS C_emmohndu RemovalReason
 		COMMENT Represents the removal reason of an entity.
 		COMMENT <p>

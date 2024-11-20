@@ -255,28 +255,6 @@ CLASS net/minecraft/unmapped/C_tyjpezxh net/minecraft/util/dynamic/Codecs
 		ARG 3 i
 	METHOD m_ywzojanw (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/lang/Object;)Ljava/util/List;
 		ARG 2 individual
-	CLASS C_cuqomsnk
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
-			ARG 2 mapLike
-		METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/RecordBuilder;)Lcom/mojang/serialization/RecordBuilder;
-			ARG 1 e
-			ARG 3 prefix
-	CLASS C_lduttodi
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-	CLASS C_ltlpgnmp
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-		METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/RecordBuilder;)Lcom/mojang/serialization/RecordBuilder;
-			ARG 1 input
-			ARG 3 prefix
-	CLASS C_nxvxcuuo
-		METHOD apply (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Lcom/mojang/serialization/DataResult;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-			ARG 3 dataResult
-		METHOD coApply (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Lcom/mojang/serialization/DataResult;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-			ARG 3 dataResult
 	CLASS C_pdblrsjv TagEntryId
 		FIELD f_fbymtsno tag Z
 		FIELD f_gbgbiokr id Lnet/minecraft/unmapped/C_ncpywfca;
@@ -300,12 +278,6 @@ CLASS net/minecraft/unmapped/C_tyjpezxh net/minecraft/util/dynamic/Codecs
 			ARG 2 mapLike
 		METHOD m_ywaubwiz (Ljava/lang/Object;Ljava/util/Map;)Lcom/mojang/datafixers/util/Pair;
 			ARG 1 map
-	CLASS C_rmkztixd
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-		METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-			ARG 1 input
-			ARG 3 prefix
 	CLASS C_vszvntmz IdMap
 		FIELD f_jiznivyz valuesById Lcom/google/common/collect/BiMap;
 		METHOD m_pumnslpj createValueCodec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
@@ -313,26 +285,3 @@ CLASS net/minecraft/unmapped/C_tyjpezxh net/minecraft/util/dynamic/Codecs
 		METHOD m_vcuybwjv put (Ljava/lang/Object;Ljava/lang/Object;)Lnet/minecraft/unmapped/C_tyjpezxh$C_vszvntmz;
 			ARG 1 id
 			ARG 2 value
-	CLASS C_vwclxfsu
-		METHOD apply (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Lcom/mojang/serialization/DataResult;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-			ARG 3 result
-		METHOD coApply (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Lcom/mojang/serialization/DataResult;)Lcom/mojang/serialization/DataResult;
-			ARG 2 partial
-			ARG 3 result
-	CLASS C_xmqgqbsp
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
-			ARG 2 mapLike
-		METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/RecordBuilder;)Lcom/mojang/serialization/RecordBuilder;
-			ARG 1 input
-			ARG 3 prefix
-		METHOD m_dsdzbjrq startEncode (Lcom/mojang/serialization/Codec;Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-	CLASS C_yruhnvhw
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-			ARG 2 input
-		METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-			ARG 1 optional
-			ARG 3 prefix
-		METHOD m_vbpqbdmv hasEmptyMap (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Z
-			ARG 1 input

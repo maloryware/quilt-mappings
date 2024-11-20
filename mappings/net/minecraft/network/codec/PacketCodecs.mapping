@@ -96,35 +96,6 @@ CLASS net/minecraft/unmapped/C_anfarvhg net/minecraft/network/codec/PacketCodecs
 		METHOD m_bdkwuzch getHolderIdMap (Lnet/minecraft/unmapped/C_bngyzsts;)Lnet/minecraft/unmapped/C_feaetnaz;
 	CLASS C_kafuxsar
 		METHOD m_sqbtyjcv getIterable (Lnet/minecraft/unmapped/C_bngyzsts;)Lnet/minecraft/unmapped/C_feaetnaz;
-	CLASS C_otvumexh
-		METHOD m_mltljltb decode (Lio/netty/buffer/ByteBuf;)[B
-		METHOD m_rpnohfjh encode (Lio/netty/buffer/ByteBuf;[B)V
-			ARG 2 bytes
-	CLASS C_qovzsqii
-		METHOD m_agijdhuy decode (Lio/netty/buffer/ByteBuf;)[B
-		METHOD m_iuftngsq encode (Lio/netty/buffer/ByteBuf;[B)V
-			ARG 2 bytes
-	CLASS C_ufqwkxxt
-		METHOD m_rfuvbnpd (Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException;
-			ARG 1 error
-		METHOD m_swsaszuq (Lnet/minecraft/unmapped/C_oivssbvb;Ljava/lang/String;)Lio/netty/handler/codec/DecoderException;
-			ARG 1 error
-	CLASS C_vvbhljtb
-		METHOD m_ncozejww (Lio/netty/buffer/ByteBuf;Lnet/minecraft/unmapped/C_qsrmwluu;Ljava/lang/Object;)V
-			ARG 2 right
-		METHOD m_toencswi (Lio/netty/buffer/ByteBuf;Lnet/minecraft/unmapped/C_qsrmwluu;Ljava/lang/Object;)V
-			ARG 2 left
 	CLASS C_wfaqdxcz
 		FIELD f_igiynzhh IDENTIFIER_ID I
 		FIELD f_swbwkgxh holderCodec Lnet/minecraft/unmapped/C_qsrmwluu;
-	CLASS C_xvgblejl
-		METHOD m_gkgpgtxa (Lnet/minecraft/unmapped/C_qsrmwluu;Lio/netty/buffer/ByteBuf;Lnet/minecraft/unmapped/C_qsrmwluu;Ljava/lang/Object;Ljava/lang/Object;)V
-			ARG 3 key
-			ARG 4 value
-	CLASS C_xxmtrmze
-		FIELD f_gtzsbngi MAX_VALUE_LENGTH I
-		FIELD f_miuviaae MAX_NAME_LENGTH I
-		FIELD f_orvrargy MAX_SIGNATURE_LENGTH I
-		FIELD f_zhpxcyzf MAX_COLLECTION_SIZE I
-		METHOD m_lzykibuw (Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V
-			ARG 1 string
