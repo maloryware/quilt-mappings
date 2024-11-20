@@ -49,6 +49,15 @@ CLASS net/minecraft/unmapped/C_ayikuhxa com/mojang/blaze3d/texture/NativeImage
 		ARG 6 width
 		ARG 7 flipHorizontal
 		ARG 8 flipVertical
+	METHOD m_hqirglgj uploadInternal (IIIIIIIZ)V
+		ARG 1 level
+		ARG 2 offsetX
+		ARG 3 offsetY
+		ARG 4 unpackSkipPixels
+		ARG 5 unpackSkipRows
+		ARG 6 width
+		ARG 7 height
+		ARG 8 blur
 	METHOD m_jamgysmq makePixelArray ()[I
 	METHOD m_jwryptwt applyFunction (Ljava/util/function/IntUnaryOperator;)V
 		ARG 1 function
